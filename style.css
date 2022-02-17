@@ -1,0 +1,31 @@
+.container {
+  display: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+  display: inline-block;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.diamond {
+  width: 200px;
+  height: 200px;
+  transform: skew(20deg);
+	background: #555;
+  display: inline-block;
+  margin-top: auto;
+  margin-left: 10px;
+}
