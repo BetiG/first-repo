@@ -1,0 +1,7 @@
+
+.container li {
+  color: #cecece;
+}
+.container li:nth-child(even) {
+  color: #efe3e3;
+}
