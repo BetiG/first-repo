@@ -1,0 +1,30 @@
+
+.nav-container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-container-flex a {
+  margin: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  /* flex-direction: row-reverse; */
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  background: pink;
+  background: pink;
+}
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .toggler {
+    display: none;
+  }
+}
