@@ -1,10 +1,17 @@
-@media screen and (max-width: 768px) {
-  .container {
-    width: 90%;
-    margin: 0 auto;
-  }
+.container {
+  background: lightblue;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .box {
-  width: 33.33%;
+  width: 100%;
+  text-align: center;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  background: green;
 }
