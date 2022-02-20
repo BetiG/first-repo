@@ -1,0 +1,23 @@
+html body {
+  height: 100vh;
+}
+.container-flex {
+  background-image: url("https://source.unsplash.com/random");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  /* flex */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle{
+    height: 50%;
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 0.5;
+  }
