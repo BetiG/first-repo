@@ -1,6 +1,10 @@
+.container {
+  background-color: lightblue;
+}
+
 @media screen and (max-width: 768px) {
   .container {
-    width: 96%;
+    width: 94%;
     margin: 0 auto;
   }
 }
