@@ -1,7 +1,17 @@
+
+.container{
+  width: 100%;
+  background: lightblue;
+  display: flex;
+}
 .dot {
-  height: 50px;
-  width: 50px;
-  background: #ccc;
+  background: tomato;
+  color: white;
+  flex: 0.33;
   border-radius: 50%;
-  display: inline-block;
+}
+.dot:before {
+    content:'';
+    float:left;
+    padding-top:100%;
 }
