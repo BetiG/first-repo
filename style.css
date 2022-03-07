@@ -2,24 +2,16 @@
     height: 200px;
 }
 
-.button {
-    padding: 10px;
-    border: 2px solid pink;
-    position: relative;
-    transform-origin: top left;
-    animation-name: grow;
+
+.button-grow {
+  padding: 10px;
+  border: 2px solid pink;
+  position: relative;
+  transform-origin: top left;
+  transition: all 5s ease-in-out;
+  transition-delay: 5s;
 }
 
-.button {
-    padding: 10px;
-    border: 2px solid pink;
-    position: relative;
-    transform-origin: top left;
-    transition-property: transform;
-    transition-duration: 5s;
-}
-
-.button:focus {
-    transform-origin: top left;
-    transform: scale(2);
+.button-grow:focus {
+  transform: scale(2);
 }
