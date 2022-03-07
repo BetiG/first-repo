@@ -1,0 +1,118 @@
+.default-container, .page {
+  height:100vh;
+  min-height: 100vh;
+}
+.bg {
+  margin-top:-3%;
+  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).webp");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-brand {
+  margin-left: 7%
+}
+.navbar{
+  /* height: 50px; */
+  background: #4E4E4E;
+
+}
+
+.page-content {
+  margin: 3% 7%;
+}
+
+.intro-container {
+  height: inherit;
+  min-height: inherit;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.heading{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content:space-between;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+.heading h1, h2 {
+  /* Nasza firma oferuje najwyższej jakości produkty. */
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+color: #FFFFFF;
+}
+
+.specialist-container {
+  min-height: inherit;
+  height: inherit;
+}
+
+.second-page h1{
+  /* Nasi specjaliści */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+color: #152D41;
+}
+
+.person-component {
+  display:flex;
+  height: 197px;
+  align-items:center;
+  flex-wrap:nowrap;
+  justify-content: flex-start;
+  margin-bottom:5%;
+}
+.person-component:nth-child(odd) {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.person-component > div {
+  border: 20px
+}
+
+.image{
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.business-container {
+  height: inherit;
+  min-height: inherit;
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+}
+.activities {
+
+  margin-right: 20%;
+  display: flex;
+  /* flex-direction:row; */
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.activities > .card{
+  width: 198px;
+  height: 193.78px;
+  border-color: lightblue;
+  background-color:  #F1F1F1;;
+}
