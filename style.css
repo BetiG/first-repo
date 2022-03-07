@@ -32,10 +32,14 @@ html body {
     animation-duration: 4s;
 }
 
+.btn:focus {
+  background-color: white;
+  color:#24ad98
+}
 
-@keyframes button {
+/* @keyframes button {
     from {background-color: #24ad98}
     to {background-color: white;}
     from {color: white}
     to {color:#24ad98}
-}
+} */
