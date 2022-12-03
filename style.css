@@ -8,7 +8,7 @@
 
 .page-content,
 .navbar {
-  padding: 0 94px;
+  padding: 20px 94px;
 }
 
 @media screen and (max-width: 441px) {
@@ -57,13 +57,9 @@ main {
 .specialist-container {
   height: auto;
   width: 100%;
-  background: #F1F1F1;
+  background: #f1f1f1;
   /* left: -330px;
   top: -331px; */
-}
-
-.title {
-  padding: 30px 0;
 }
 
 .ratio {
@@ -87,8 +83,8 @@ main {
 }
 
 .element:nth-of-type(odd) {
-text-align: left;
-align-items: left;
+  text-align: left;
+  align-items: left;
 }
 
 .element:nth-of-type(even) {
@@ -96,3 +92,34 @@ align-items: left;
   align-items: right;
 }
 
+.col-centered {
+  height: 198px;
+  width: 193.78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F1F1F1;
+}
+
+.col-centered p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+}
+
+.offer-container {
+  height: auto;
+  width: 100%;
+  background: #405D78;
+}
