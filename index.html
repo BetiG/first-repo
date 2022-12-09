@@ -24,13 +24,13 @@
   </head>
   <body>
     <header>
-      <nav class="nav navbar bg-dark">
+      <nav class="navbar nav">
         <div class="navbar-brand text-start text-white">moja firma</div>
         <ul class="nav nav-links">
-          <li class="nav-item">
+          <li class="nav-item specialist">
             <a class="nav-link" href="#specialist">o nas</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item offer">
             <a class="nav-link" href="#offer">oferta</a>
           </li>
           <li class="nav-item contact">
@@ -41,38 +41,45 @@
     </header>
     <main>
       <div class="default-container container-fluid bg">
-        <div class="page-content text-white h-100">
-          <div class="row h-100 align-items-center">
-            <div class="col-12 h-50 mh-100">
-              <div class="row inner-row align-items-center">
-                <div class="col-sm-12">
+      <div class="page-content text-white h-100">
+        <div class="row h-100 justify-content-center motto">
+          <div class="col">
+            <div class="row">
+              <div class="col-sm-7 py-4">
+                <div class="subtitle">
                   <h1>Nasza firma oferuje najwyższej jakości produkty.</h1>
                 </div>
               </div>
-              <div class="row inner-row align-items-center">
-                <div class="col-sm-12">Nie wierz nam na słowo - sprawdź</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 py-4">
+                <div class="subtitle">Nie wierz nam na słowo - sprawdź</div>
               </div>
-              <div class="row inner-row align-items-center">
-                <div class="col-sm-12">
+            </div>
+            <div class="row">
+              <div class="col-sm-6 py-4">
+                <div>
                   <a
                     type="button"
                     class="btn border border-white border-2 text-white"
                     href="https://www.google.pl/"
                     target="blank"
-                    >oferta</a >
+                    >oferta</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
       <div class="page-content container-fluid specialist-container"
       id="specialist">
-        <h1 class="title">Nasi specjaliści</h1>
+        <h1 class="title pb-5">Nasi specjaliści</h1>
         <div class="row h-100">
           <div class="col-sm-12 h-100">
-            <div class="row inner-row align-items-center">
-              <div class="col-sm-3">
+            <div class="row inner-row element align-items-center">
+              <div class="col-sm-3 pe-5">
                 <div
                   class="ratio img-responisve img-circle img"
                   style="background-image: url(image.avif)"
@@ -104,18 +111,18 @@
                   ipsa voluptas veniam possimus quisquam maiores harum?
                 </p>
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-3 ps-5">
                 <div
                   class="ratio img-responisve img-circle img"
-                  style="background-image: url(image2.avif)"
+                  style="background-image: url(image5.avif)"
                 ></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="page-content offer-container container-fluid">
-        <p><h1 class="text-white ">Czym zajmuje się nasza firma?</h1></p>
+      <div class="page-content offer-container container-fluid" id="offer">
+        <p><h1 class="text-white pb-5">Czym zajmuje się nasza firma?</h1></p>
         <div class="row h-100 justify-content-center">
           <div class="col h-100 offers">
             <div class="row mx-auto d-flex justify-content-center">
@@ -142,7 +149,21 @@
           </div>
         </div>
       </div>
-    </main>
+      <footer class="footer">
+        <nav class="footer-container">
+          <div class="row text-white">
+            <div class="col-sm-9">
+              <div class="row">
+                <div class="col-xs-8 col-sm-6">
+                  Level 2: .col-xs-8 .col-sm-6
+                </div>
+                <div class="col-xs-4 col-sm-6">
+                  Level 2: .col-xs-4 .col-sm-6
+                </div>
+              </div>
+            </div>
+          </div>
+</footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

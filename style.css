@@ -1,14 +1,18 @@
 .nav-link {
   color: white;
 }
-
 .contact {
   cursor: not-allowed;
 }
 
-.page-content,
-.navbar {
-  padding: 20px 94px;
+.navbar,
+.footer {
+  background: #4e4e4e;
+  padding: 0.5% 3%;
+}
+
+.page-content {
+  padding: 3% 3%;
 }
 
 @media screen and (max-width: 441px) {
@@ -20,6 +24,18 @@
 main {
   height: 100vh;
   min-height: 100vh;
+}
+
+header,
+main {
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
 }
 
 .bg {
@@ -40,20 +56,6 @@ main {
   padding: 0 50px;
 }
 
-.inner-row {
-  height: 33%;
-  max-height: 100%;
-}
-
-.h1 {
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 42px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
 .specialist-container {
   height: auto;
   width: 100%;
@@ -70,6 +72,7 @@ main {
   padding-bottom: 100%;
   position: relative;
   width: 100%;
+  background-position: center;
 }
 
 .img-circle {
@@ -98,28 +101,37 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #F1F1F1;
+  background: #f1f1f1;
 }
 
-.col-centered p {
-  font-family: Roboto;
+p {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
-  text-align: center;
-  
-  font-family: Roboto;
+}
+
+.col-centered p {
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: center;
-  
 }
 
 .offer-container {
   height: auto;
   width: 100%;
-  background: #405D78;
+  background: #405d78;
+}
+
+.motto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.footer {
+  height: 100px;
 }
